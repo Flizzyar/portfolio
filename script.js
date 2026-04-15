@@ -42,7 +42,7 @@ if (yearSpan) yearSpan.textContent = new Date().getFullYear()
 const phrases = [
     'Frontend.',
     'Backend.',
-    'Designer.',
+    'Design.',
     'API, MongoDB & SQL.',
     'JavaScript.',
     'React & TypeScript.',
