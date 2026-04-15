@@ -188,6 +188,10 @@ video {
     gap: 4px;
 }
 
+.topbar-right {
+    align-items: flex-end;
+}
+
 .topbar-left .meta span,
 .topbar-right .location {
     font-size: 11px;
