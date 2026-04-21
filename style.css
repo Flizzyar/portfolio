@@ -347,7 +347,7 @@ video {
 }
 
 .portrait {
-    width: 80%;
+    width: 75%;
     aspect-ratio: 2 / 3;
     background-image: url('photos/portrait.jpg');
     background-size: cover;
@@ -810,7 +810,7 @@ video {
     }
 
     .portrait {
-        width: clamp(180px, 42vw, 280px);
+        width: clamp(220px, 42vw, 280px);
     }
 
     .topbar-right {
