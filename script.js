@@ -40,12 +40,12 @@ if (yearSpan) yearSpan.textContent = new Date().getFullYear()
 // HERO TYPEWRITER EFFECT
 // ======================================
 const phrases = [
-    'Frontend.',
-    'Backend.',
-    'Design.',
+    'Frontend Development.',
+    'Backend Development.',
+    'Design, Figma & Photoshop.',
     'API, MongoDB & SQL.',
-    'JavaScript.',
-    'React & TypeScript.',
+    'JavaScript, HTML & CSS.',
+    'React, TypeScript & Next.js.',
     'Server, Node.js.'
 ]
 
