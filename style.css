@@ -37,7 +37,7 @@ body {
         'Segoe UI',
         sans-serif;
     background: var(--clr-light);
-    color: var(--clr-text);
+    color: var(--clr-dark);
 }
 
 html {
@@ -52,6 +52,18 @@ img,
 video {
     max-width: 100%;
     display: block;
+}
+
+.sr-only {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    padding: 0;
+    margin: -1px;
+    overflow: hidden;
+    clip: rect(0, 0, 0, 0);
+    white-space: nowrap;
+    border: 0;
 }
 
 /* =======================================
@@ -91,21 +103,23 @@ video {
     height: 1.5px;
     background: rgba(38, 59, 106, 0.15);
     border-radius: 99px;
-    overflow: hidden;
 }
 
 .loader-bar-fill {
     display: block;
     height: 100%;
-    width: 0%;
+    width: 100%;
     background: var(--clr-navy);
     border-radius: 99px;
+    transform-origin: left;
+    transform: scaleX(0);
+    will-change: transform;
     animation: loaderFill 0.8s ease forwards;
 }
 
 @keyframes loaderFill {
     to {
-        width: 100%;
+        transform: scaleX(1);
     }
 }
 

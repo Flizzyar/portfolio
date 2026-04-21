@@ -4,17 +4,22 @@
         <meta charset="UTF-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
         <title>Felisia Trense – Portfolio</title>
+        <meta name="description" content="Felisia Trense – Junior Fullstack-utvecklare i Stockholm. Portfolio med projekt inom HTML, CSS, JavaScript, React, TypeScript och Node.js. Söker LIA hösten 2026." />
 
         <link rel="preconnect" href="https://fonts.googleapis.com" />
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
         <link
-            href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300;400;500;600&display=swap"
-            rel="stylesheet"
+            rel="preload"
+            href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300;400;500;600&family=Courier+Prime&display=swap"
+            as="style"
+            onload="this.onload=null;this.rel='stylesheet'"
         />
-        <link
-            href="https://fonts.googleapis.com/css2?family=Courier+Prime&display=swap"
-            rel="stylesheet"
-        />
+        <noscript>
+            <link
+                href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300;400;500;600&family=Courier+Prime&display=swap"
+                rel="stylesheet"
+            />
+        </noscript>
 
         <link rel="stylesheet" href="style.css" />
     </head>
@@ -185,6 +190,7 @@
                             <span class="arrow">‹</span>
                         </button>
 
+                        <h2 class="sr-only">Projekt</h2>
                         <div class="projects-grid">
                             <!-- ALT FIX: video beskrivs -->
                             <article
@@ -257,6 +263,7 @@
                                                         src="/video/demo.MP4"
                                                         type="video/mp4"
                                                     />
+                                                    <track kind="captions" src="/captions/empty.vtt" srclang="sv" label="Svenska" default />
                                                 </video>
                                             </div>
 
@@ -265,6 +272,8 @@
                                                 src="/photos/iphone-frame.png"
                                                 alt=""
                                                 aria-hidden="true"
+                                                width="450"
+                                                height="920"
                                             />
                                         </div>
                                     </div>
@@ -343,6 +352,8 @@
                                                 src="/photos/mockup-macbook.png"
                                                 alt=""
                                                 aria-hidden="true"
+                                                width="1008"
+                                                height="623"
                                             />
 
                                             <div class="macbook-mask">
@@ -357,6 +368,7 @@
                                                         src="/video/juiceCO.mp4"
                                                         type="video/mp4"
                                                     />
+                                                    <track kind="captions" src="/captions/empty.vtt" srclang="sv" label="Svenska" default />
                                                 </video>
                                             </div>
                                         </div>
